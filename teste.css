@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oswald, sans-serif;
+    color:blue;
+
+
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    width: 60%;
+    padding: 10vw 0 30vw 10vw;
+
+
+
+    display: inline-block;
+}
+
+.right {
+
+    background-color: rgb(93, 93, 125, 0.16);
+    ;
+
+    display: inline-block;
+    height: 100vw;
+    width: 40%;
+    position: absolute
+}
+
+h1 {
+    color: #5D5D7D;
+    width: 368px;
+    font-size: 78px;
+    font-style: normal;
+
+    line-height: 80px;
+    /* 114.286% */
+}
+
+p {
+    color: #5D5D7D;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 48px;
+    /* 171.429% */
+    width: 540px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+    color: #FFF;
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    #9499EA line-height: normal;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header {
+    margin-left: 50px;
+}
+
+a {
+    margin-left: 41px;
+    color: #5D5D7D;
+    font-family: Oswald;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.id {
+    opacity: 0.16;
+}
+
+img {
+    position: relative;
+    top: 100px;
+    right: 120px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.16;
+}
+
+@media screen and (max-width:900px) {
+    .left {
+        height: 50%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        p;
+
+    }
+
+    h1 {
+        margin: 50px 50px 0 50px;
+        text-align: center;
+        width: auto;
+    }
+
+    .right {
+        width: 100vw;
+        height: 100%;
+        display: block;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    p {
+        margin: 16px 40px;
+        width: auto;
+        text-align: center;
+    }
+
+    button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+}
